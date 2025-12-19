@@ -1,9 +1,10 @@
 # GitHub Pages Configuration
-# This is a static HTML site - no Jekyll processing needed
-
 title: Huzaifa Tariq
 description: Economics, Data Analytics, and Essays
 author: M. Huzaifa Tariq
+
+# Markdown settings
+markdown: kramdown
 
 # Exclude from processing
 exclude:
