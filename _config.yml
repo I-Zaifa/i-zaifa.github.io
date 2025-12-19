@@ -1,24 +1,11 @@
-title: Huzaifa's Corner
-description: Essays, portfolio, and thoughts on economics, culture, and contrarian ideas.
-author: Huzaifa
+# GitHub Pages Configuration
+# This is a static HTML site - no Jekyll processing needed
 
-# Theme - clean and minimal
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
-  - jekyll-relative-links
+title: Huzaifa Tariq
+description: Economics, Data Analytics, and Essays on Culture and Ideas
+author: M. Huzaifa Tariq
 
-relative_links:
-  enabled: true
-  collections: true
-
-# Don't process these
+# Exclude from processing
 exclude:
   - README.md
   - LICENSE
-
-# Navigation links (shows at top of every page)
-header_pages:
-  - about.md
-  - portfolio.md
-  - essays.md
