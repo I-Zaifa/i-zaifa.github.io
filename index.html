@@ -515,7 +515,7 @@
 
                 <div class="section">
                     <h2>Latest Essay</h2>
-                    <div class="featured-essay" onclick="openEssay('how-much-for-a-ticket')">
+                    <div class="featured-essay" onclick="openEssay('how-much-for-a-ticket', event)">
                         <div class="featured-label">Featured</div>
                         <h3>How Much for a Ticket?</h3>
                         <p>On Shakespeare and a nation's rise in trade.</p>
@@ -705,7 +705,7 @@
                 console.error('Error loading essays:', error);
                 // Fallback: show placeholder
                 document.getElementById('essayListContainer').innerHTML = `
-                    <li class="essay-item" onclick="openEssay('how-much-for-a-ticket')">
+                    <li class="essay-item" onclick="openEssay('how-much-for-a-ticket', event)">
                         <h3>How Much for a Ticket?</h3>
                         <span class="date">2025</span>
                         <p class="excerpt">On Shakespeare and a nation's rise in trade.</p>
@@ -717,7 +717,7 @@
         function renderEssayList() {
             const container = document.getElementById('essayListContainer');
             container.innerHTML = essays.map(essay => `
-                <li class="essay-item" onclick="openEssay('${essay.file}')">
+                <li class="essay-item" onclick="openEssay('${essay.file}', event)">
                     <h3>${essay.title}</h3>
                     <span class="date">${essay.date}</span>
                     <p class="excerpt">${essay.excerpt}</p>
@@ -726,12 +726,22 @@
         }
 
         // Essay Reader
-        async function openEssay(filename) {
-            // Switch to essays tab if not already there
-            switchTab('essays');
+        async function openEssay(filename, event) {
+            // Prevent any default behavior
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+
+            // Switch to essays tab first, but don't reset if we're opening an essay
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelector('[data-tab="essays"]').classList.add('active');
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.getElementById('essays').classList.add('active');
 
             try {
-                const response = await fetch(`essays/${filename}.md`);
+                const response = await fetch(`essays/${filename}.txt`);
+                if (!response.ok) throw new Error('Essay not found');
                 const markdown = await response.text();
                 
                 // Parse frontmatter
