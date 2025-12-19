@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.title }} - Essay by M. Huzaifa Tariq">
+    <title>{{ page.title }} · Huzaifa Tariq</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html" class="logo">Huzaifa<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+                <li><a href="/essays.html" class="active">Essays</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <article>
+                <header class="essay-header">
+                    <h1>{{ page.title }}</h1>
+                    <p class="date">{{ page.date }}</p>
+                </header>
+
+                <div class="essay-content">
+                    {{ content }}
+                </div>
+
+                <a href="/essays.html" class="back-link">← Back to Essays</a>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>M. Huzaifa Tariq · Islamabad, Pakistan</p>
+        </div>
+    </footer>
+</body>
+</html>
