@@ -1,0 +1,37 @@
+---
+layout: essay
+title: How Much for a Ticket?
+date: 2025
+---
+
+In economics/statistics the one thing you hear throughout is correlation and causation. The two C's you must never confuse and the one topic that every economist would love to give you a kindergarten level lecture on (especially if you never asked). This is about another C; the one somewhere in between.
+
+Getting the short run, short; whatever indicator or policy tool a government uses – argue for correlation, causation – the effect is mostly made to be immediate and consequently short-lasting too.
+
+This is less of a diatribe and more of an empirical observation; and a personal one. I have noticed that of everything talked of, the one thing, my missing C gets left out. The one that is neither a coincidence from history and neither something you can easily attach strings to. And it is precedence; the 'C' is silent (and invisible to some).
+
+Precedence in the sense of where it all started; the one common thing that all nations had before their rise. Starting with an example of the U.S itself; in the late 1800's before its economic grip on world trade, it had more stage theatres than Pakistan has digital ones now. They had music, cinema, literature, an industry of entertainment before an economy. Which is what I want to have you, my reader, focus on here; Culture itself, of which entertainment is just one aspect.
+
+Pick the top ten performing countries in the world and their economic boom will be preceded, in some cases by decades, with a proliferation of the love of art. Popcorns and movie tickets; I keep my writing here limited to this due to the limitations of space.
+
+US, France, Germany, Russia, Britain. They were the first countries to shift from theatre only towards the adoption of cinema. To address the high literacy in these countries with an anecdote; Shakespeare was a powerhouse when 1/4th of the population was literate according to historical estimates. Furthermore, a baseline must exist without question but not by much.
+
+China, seeing Hong-Kong prosper with kung-fu style 'Bruce and Jackie' exports, followed the same in the 80s-90s which is a first for huge and direct government spendings in this manner rather than the usual tax and liberty-wise incentives given. The USSR had the same spending idea but alas state-sponsored art is not equal to organic digestion. Japan was there before them, with an artform that inspired even some western filmmakers like 'the seven samurai' feature; later it became known for its unique animation and comics aka mangas.
+
+On literacy again; India, our neighbor, had only a 4% literacy rate above us before the 60's. We had more than 500 screens before that time which doubled during the 60's. General Zia's conservatism push shut many of those down and years later, we now have no more than 150. During the same time India's number went from 3000 to 12000. Bollywood's mid-story dance sequence was a phenomenon before India was even in the top 20 economies – now 5th.
+
+On exceptions; there is nothing human without them. Some are evident as to why such as Saudi, Dubai, etc. The only true outlier that is well regarded and for which its economic rise was not preceded by the entertainment boom is South Korea. It is the only true outlier I could observe in the data I collected. The reasoning I leave to the reader as I myself am undecided. (Though keep in mind its active support for the K-pop culture during the late 90's.)
+
+Circling back to the main (dis)course; all the other ex-ante indicators of economic prosperity such as literacy, geographical/sociopolitical environment, and hdi, are not as common in the best performing countries before they topped world lists as much as a sweet tooth for entertainment is. This holds even truer for countries with a lower literacy rate and per capita income, down to a certain reasonable point - 1/4th minimum for literacy for example.
+
+Today you look and the pattern is obvious. No one will disagree that the countries with the most trade and military prowess usually have the entertainment sector as a significant component of their GDP. (For the U.S it is 4.5% and for India 1.5%. Pakistan lags far behind at <0.1 at the most optimistic estimate). But again my focus is the precedence; which this writer has to fight with people on.
+
+It's the ridiculousness of it all. The absurdity. "Should people watch movies more? Is social media not enough…". The solid foundation of every counter argument, often accompanied by a smirk. No comment do I have on this; good faith is a two-way street in any discourse. End of Story.
+
+But the premise is something more than just this. Take, as an example, any sample of students and divide them based on their English comprehension and vocabulary. The one, and I will put my money on this, and only difference you will notice, no matter their schooling, is their consumption of english media; books and movies and shows and whatnot. A more defining difference than any income or schooling disparity (even though the correlation is high).
+
+Now suggest this as a remedy for teaching English in classes; using entertainment that is and it seems laughable. The reason it is not a core part of studies is simply because it doesn't look as rigorous and academic as grammar and Shakespeare (who was taught Latin formally not English) or as hands-on as the once-a-year debate and writing competitions. People remember stories and other things through it; rarely rules.
+
+Circling back - twice over - an economic cure that includes making more salsa via indirect methods such as greater legal enforcement for IP protection and tax breaks to studios is equally 'non-scientific' looking. The short run is there for a reason because immediate relief is necessary; but is it mutually exclusive to seeding an idea that pays in the long gamma?
+
+There is much and more that I wanted to say but another time perhaps. *valette!*
