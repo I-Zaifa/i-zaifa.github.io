@@ -745,21 +745,13 @@
                 const markdown = await response.text();
                 
                 // Parse frontmatter
-                const frontmatterMatch = markdown.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-                let title = filename;
-                let date = '';
-                let content = markdown;
-
-                if (frontmatterMatch) {
-                    const frontmatter = frontmatterMatch[1];
-                    content = frontmatterMatch[2];
-                    
-                    const titleMatch = frontmatter.match(/title:\s*(.+)/);
-                    const dateMatch = frontmatter.match(/date:\s*(.+)/);
-                    
-                    if (titleMatch) title = titleMatch[1];
-                    if (dateMatch) date = dateMatch[1];
-                }
+                // Get title/date from already-loaded JSON
+                const essayData = essays.find(e => e.file === filename);
+                let title = essayData ? essayData.title : filename;
+                let date = essayData ? essayData.date : '';
+                
+                // Strip frontmatter from content
+                let content = markdown.replace(/^---[\s\S]*?---\s*/, '');
 
                 // Store current essay for progress tracking
                 currentEssay = filename;
