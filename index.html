@@ -83,6 +83,35 @@
             color: var(--orange);
         }
 
+        /* Current Op - Header Indicator */
+        .header-op {
+        font-size: 0.7rem;
+        color: var(--text-dim);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        transition: all 0.2s ease;
+        }
+        .header-op:hover {
+        border-color: var(--orange);
+        color: var(--orange);
+        }
+        .header-op .dot {
+        width: 6px;
+        height: 6px;
+        background: #22c55e;
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+        }
+
         /* Tab Navigation */
         .tabs {
             display: flex;
@@ -485,10 +514,19 @@
         <div class="container">
             <div class="header-content">
                 <a href="#" class="logo" onclick="goHome()">Bienvenue<span>!</span></a>
-                <div class="tabs">
-                    <button class="tab-btn active" data-tab="home">Home</button>
-                    <button class="tab-btn" data-tab="portfolio">Portfolio</button>
-                    <button class="tab-btn" data-tab="essays">Essays</button>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <a href="https://YOUR-USERNAME.github.io/PRIVATE-REPO-NAME/La_Strategem.html" 
+                    target="_blank" 
+                    class="header-op" 
+                    id="currentOp">
+                        <span class="dot"></span>
+                        <span>Op Finals</span>
+                    </a>
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="home">Home</button>
+                        <button class="tab-btn" data-tab="portfolio">Portfolio</button>
+                        <button class="tab-btn" data-tab="essays">Essays</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -834,6 +872,14 @@
 
         // Initialize
         loadEssays();
+    </script>
+    <script>
+    // Auto-hide after exams
+    (function() {
+        const end = new Date('2025-01-09');
+        const el = document.getElementById('currentOp');
+        if (el && new Date() > end) el.style.display = 'none';
+    })();
     </script>
 </body>
 </html>
